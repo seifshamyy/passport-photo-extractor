@@ -1,0 +1,17 @@
+{
+  "name": "passport-cropper",
+  "version": "1.0.0",
+  "description": "API to detect and crop passport photos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@vladmandic/face-api": "^1.7.12",
+    "@tensorflow/tfjs": "^4.10.0",
+    "canvas": "^2.11.2",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.32.6"
+  }
+}
