@@ -14,7 +14,7 @@ const { Canvas, Image, ImageData } = canvas;
 faceapi.env.monkeyPatch({ Canvas, Image, ImageData });
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 const upload = multer({ storage: multer.memoryStorage() });
 
 // --- ABSOLUTE PATH SETUP ---
